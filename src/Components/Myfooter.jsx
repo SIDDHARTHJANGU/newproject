@@ -5,7 +5,7 @@ const Myfooter = () => {
   return (
     <div id="About" className=" footer_bg pt-24 pb-24 px-3 lg:px-0">
       <div className=" container mx-auto">
-        <div className=" flex flex-wrap  items-center ">
+        <div className=" flex flex-wrap  ">
           <div className=" md:w-[40%] w-full">
             <h2 className=" font-bold text-[16px] text-white font-[poppins]">
               RP

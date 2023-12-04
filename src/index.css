@@ -15,6 +15,9 @@
 .sec3_bg {
   background: linear-gradient(178deg, #021a38 0%, #cc33d9 102.8%);
 }
+.bg_gradient {
+  background: linear-gradient(178deg, #021a38 0%, #cc33d9 102.8%);
+}
 .footer_bg {
   background: linear-gradient(180deg, #cc33d9 -9.73%, #021a38 110.94%);
 }
@@ -145,13 +148,13 @@
 .load text {
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
-  stroke: #365fa0;
+  stroke: #fd749b;
   font-size: 80px;
 }
 @keyframes stroke {
   0% {
     fill: rgba(72, 138, 204, 0);
-    stroke: rgba(54, 95, 160, 1);
+    stroke: #fd749b;
     stroke-dashoffset: 25%;
     stroke-dasharray: 0 50%;
     stroke-width: 2;
@@ -159,18 +162,18 @@
 
   70% {
     fill: rgba(72, 138, 204, 0);
-    stroke: rgba(54, 95, 160, 1);
+    stroke: #fd749b;
   }
 
   80% {
     fill: rgba(72, 138, 204, 0);
-    stroke: rgba(54, 95, 160, 1);
+    stroke: #fd749b;
     stroke-width: 3;
   }
 
   100% {
-    fill: rgba(72, 138, 204, 1);
-    stroke: rgba(54, 95, 160, 0);
+    fill: #fd749b;
+    stroke: #fd749b;
     stroke-dashoffset: -25%;
     stroke-dasharray: 50% 0;
     stroke-width: 0;
