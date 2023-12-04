@@ -25,7 +25,7 @@ export const Myheader = () => {
     setshow(false);
   };
   return (
-    <div className=" hero_bg  min-h-screen  flex flex-col ">
+    <div className=" hero_bg  lg:min-h-screen min-h-[90vh]  flex flex-col ">
       <nav>
         <div className=" container mx-auto">
           <div className=" flex justify-between items-center py-6 px-3 ">
@@ -94,7 +94,7 @@ export const Myheader = () => {
         </div>
       </nav>
       <div id="Home" className=" flex-grow flex relative">
-        <div className=" container mx-auto  flex items-center flex-col lg:mt-40 mt-12  ">
+        <div className=" container mx-auto  flex items-center flex-col lg:mt-40 mt-8  ">
           <div
             className=" text-center lg:text-start px-3 lg:px-0"
             data-aos="fade-down"
