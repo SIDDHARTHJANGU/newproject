@@ -3,9 +3,12 @@ import { Facebook, Google, Instagram, Twtter } from "./Mysvg";
 
 const Myfooter = () => {
   return (
-    <div id="About" className=" footer_bg pt-24 pb-24 px-3 lg:px-0">
+    <div
+      id="About"
+      className=" footer_bg lg:pt-24 pt-12 lg:pb-24 pb-12 px-3 lg:px-0"
+    >
       <div className=" container mx-auto">
-        <div className=" flex flex-wrap  ">
+        <div className=" flex flex-wrap    ">
           <div className=" md:w-[40%] w-full">
             <h2 className=" font-bold text-[16px] text-white font-[poppins]">
               RP
@@ -37,7 +40,7 @@ const Myfooter = () => {
               </a>
             </div>
           </div>
-          <div className=" md:w-[20%] w-full mt-8 md:mt-0">
+          <div className=" md:w-[20%] w-[50%] mt-10 md:mt-0">
             <ul>
               <li className=" font-normal text-[18px] font-[poppins] text-white">
                 Links
@@ -77,7 +80,7 @@ const Myfooter = () => {
               </li>
             </ul>
           </div>
-          <div className=" md:w-[20%] w-full mt-8 md:mt-0">
+          <div className=" md:w-[20%] w-[50%] mt-10 md:mt-0">
             <ul>
               <li className=" font-normal text-[18px] font-[poppins] text-white">
                 Contact Us{" "}

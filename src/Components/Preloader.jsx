@@ -10,7 +10,7 @@ export const Preloader = () => {
   return (
     <div
       id="preload"
-      className=" min-h-screen  w-full  flex  items-center  justify-center bg_gradient z-50 fixed  left-0  top-0 overflow-hidden"
+      className=" min-h-screen  w-full  flex  items-center  justify-center bg_gradient z-40 fixed  left-0  top-0 overflow-hidden"
     >
       <div className="wrapper">
         <svg className="load">

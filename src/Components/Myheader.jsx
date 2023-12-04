@@ -34,12 +34,13 @@ export const Myheader = () => {
             </div>
             <ul
               className={`${
-                show ? "start-0" : "right-[-100%]"
-              } flex gap-12 flex-col z-[4] min-h-screen fixed lg:min-h-fit lg:static w-full lg:w-auto items-center justify-center  top-0 max-lg:right-[-100%] bg-violet-500 lg:bg-[unset] lg:flex-row right-0 ps-0 duration-700`}
+                show ? "end-0" : "right-[-100%]"
+              }  flex gap-12 flex-col z-[4] min-h-screen fixed lg:min-h-fit lg:static w-full lg:w-auto items-center justify-center
+              top-0 bg-[#b430c6] lg:bg-[unset] lg:flex-row right-0 ps-0 duration-[350ms] transition-all ease-linear`}
             >
               <li>
                 <a
-                  href=" #Home"
+                  href="#Home"
                   onClick={Movement}
                   className=" font-bold text-[21px] font-[Poppins] text-white relative after:absolute after:bg-[#cc33d9] after:w-0 after:h-[3px] after:bottom-[-5px] after:right-[50%] hover:after:right-[30%] after:rounded-full  after:duration-300 inline hover:after:w-[50%]"
                 >
@@ -82,7 +83,7 @@ export const Myheader = () => {
               </li>
             </ul>
             <div
-              className=" position-relative  z-50 lg:hidden "
+              className=" position-relative  z-30 lg:hidden "
               onClick={() => {
                 setshow(!show);
               }}
