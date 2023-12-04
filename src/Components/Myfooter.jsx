@@ -12,7 +12,7 @@ const Myfooter = () => {
             </h2>
             <p className=" font-normal text-[14px] font-[poppins] text-white mt-2">
               Painting with RP means never painting your house{" "}
-              <span className=" block">
+              <span className=" lg:block">
                 {" "}
                 again! Our special paint coating comes with a 20
               </span>{" "}
