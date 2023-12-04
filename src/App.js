@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Creating from "./Components/Creating";
+import { Discover } from "./Components/Discover";
+import Gallery from "./Components/Gallery";
+import { Interior } from "./Components/Interior";
+import Myfooter from "./Components/Myfooter";
+import { Myheader } from "./Components/Myheader";
+import Newsletter from "./Components/Newsletter";
+import SatisfiedClient from "./Components/SatisfiedClient";
+import WelcomeToRP from "./Components/WelcomeToRP";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import BackToTop from "./Components/BackToTop";
+// import { Preloader } from "./Components/Preloader";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" overflow-hidden">
+      {/* <Preloader /> */}
+      <BackToTop />
+      <Myheader />
+      <WelcomeToRP />
+      <Interior />
+      <Gallery />
+      <SatisfiedClient />
+      <Discover />
+      <Creating />
+      <Newsletter />
+      <Myfooter />
     </div>
   );
 }

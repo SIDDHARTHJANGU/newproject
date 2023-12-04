@@ -1,13 +1,183 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font_poppins {
+  font-family: "Poppins";
+}
+.hero_bg {
+  background: linear-gradient(
+    174deg,
+    rgba(2, 26, 56, 0.98) -12.41%,
+    rgba(204, 51, 217, 0.98) 88.56%
+  );
+}
+.sec3_bg {
+  background: linear-gradient(178deg, #021a38 0%, #cc33d9 102.8%);
+}
+.footer_bg {
+  background: linear-gradient(180deg, #cc33d9 -9.73%, #021a38 110.94%);
+}
+.sec5_bg {
+  background: radial-gradient(100% 100% at 46.86% 0%, #021a38 0%, #cc33d9 100%);
+}
+.MORE_btn {
+  padding: 15px 65px;
+  border-radius: 100px;
+  border: none;
+  background: linear-gradient(181deg, #021a38 -30.61%, #cc33d9 132.4%);
+}
+.MORE_btn:hover {
+  background: linear-gradient(181deg, #cc33d9 -30.61%, #021a38 132.4%);
+}
+.MORE_btn {
+  padding: 15px 65px;
+  border-radius: 100px;
+  border: none;
+  background: linear-gradient(181deg, #021a38 -30.61%, #cc33d9 132.4%);
+}
+.text_grident {
+  background: linear-gradient(165deg, #021a38 0.18%, #cc33d9 61.93%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gallery_grident {
+  background: linear-gradient(168deg, #f16d92 24.56%, #281ac8 91.02%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.office {
+  background: linear-gradient(178deg, #fd749b -13.56%, #281ac8 158.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.creating {
+  background: linear-gradient(159deg, #cc33d9 30.96%, #021a38 104.01%);
+}
+.bttn_subs {
+  padding: 17px 50px;
+  border-radius: 100px;
+  background: linear-gradient(178deg, #fd749b -13.56%, #281ac8 158.3%);
+  transition: all 350ms linear !important;
+}
+.bttn_subs:hover {
+  background: linear-gradient(178deg, #281ac8 0%, #fd749b 158.3%);
+}
+.myemail {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to top, #281ac8, #fd749b) border-box;
+  border-radius: 100px;
+  border: 1px solid transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn_more {
+  padding: 16px 65px;
+  border: none;
+  border-radius: 100px;
+  background: #888;
+}
+.card_one {
+  width: 95%;
+  padding: 10px 26px;
+  border-radius: 15px;
+  border: 1px solid #888;
+  background: #fff;
+}
+.img_hgt {
+  width: 100%;
+  height: 200px;
+}
+.slick-slide {
+  opacity: 1 !important;
+}
+.slick-current {
+  opacity: 5 !important;
+}
+.slick-current .img_hgt {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 17px;
+}
+.slick-current .bcg_int {
+  background: linear-gradient(178deg, #fd749b -13.56%, #281ac8 158.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slick-current .btn_more {
+  background: linear-gradient(181deg, #021a38 -30.61%, #cc33d9 132.4%);
+}
+.slick-current .my_text {
+  text-align: center;
+}
+.slick-current .my_bttn {
+  display: flex;
+  justify-content: center;
+}
+.slick-slider {
+  width: 100%;
+}
+.my_slider {
+  display: flex !important;
+  justify-content: center !important;
+}
+.slick-track {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.slick-current .card_one {
+  z-index: 100 !important;
+  border-radius: 15px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to top, #fd749b, #281ac8) border-box;
+  border: 1px solid transparent;
+  box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.load {
+  width: 500px;
+  height: 100%;
+}
+.load text {
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #365fa0;
+  font-size: 80px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+
+  70% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+  }
+
+  80% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+    stroke-width: 3;
+  }
+
+  100% {
+    fill: rgba(72, 138, 204, 1);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+@media (min-width: 800px) {
+  .slick-current .card_one {
+    scale: 1.3;
+  }
 }
