@@ -4,7 +4,7 @@ import sectwoimg from "../assets/img/swec2img.png";
 const WelcomeToRP = () => {
   return (
     <div className=" mt-12 pb-12 px-3 lg:px-0">
-      <div className=" container mx-auto ">
+      <div className=" container max-w-[1180px] mx-auto ">
         <div className=" flex flex-wrap lg:justify-between  items-center">
           <div
             className=" lg:w-[40%] w-[100%] flex justify-center lg:justify-start"

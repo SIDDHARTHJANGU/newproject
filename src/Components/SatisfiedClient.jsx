@@ -20,7 +20,7 @@ const SatisfiedClient = () => {
           alt="img"
         />
       </div>
-      <div className=" container mx-auto pt-10 pb-12  ">
+      <div className="container max-w-[1400px] mx-auto pt-10 pb-12  ">
         <div className=" text-center pt-12" data-aos="fade-down">
           <h2 className=" font-bold text-[28px] md:text-[32px] font-[poppins]  text-white ">
             10,000 Satisfied clients{" "}

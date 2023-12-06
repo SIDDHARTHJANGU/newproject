@@ -38,7 +38,7 @@ export const Interior = () => {
     ],
   };
   return (
-    <div className=" sec3_bg relative md:pt-48 pt-6 md:pb-48  pb-6">
+    <div className=" sec3_bg relative md:pt-52 pt-6 md:pb-32  pb-6">
       <div>
         <img
           className=" absolute lg:top-[-1%] top-0 left-0 w-[100%] "
@@ -51,7 +51,7 @@ export const Interior = () => {
           alt="img"
         />
       </div>
-      <div className=" container mx-auto  ">
+      <div className="container max-w-[1160px] mx-auto  ">
         <Slider {...settings} className=" flex items-center justify-center ">
           <div className="my_slider py-32">
             <div className=" card_one  my_trans">

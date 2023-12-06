@@ -11,12 +11,12 @@ import WelcomeToRP from "./Components/WelcomeToRP";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BackToTop from "./Components/BackToTop";
-// import { Preloader } from "./Components/Preloader";
+import { Preloader } from "./Components/Preloader";
 
 function App() {
   return (
     <div className=" overflow-hidden">
-      {/* <Preloader /> */}
+      <Preloader />
       <BackToTop />
       <Myheader />
       <WelcomeToRP />

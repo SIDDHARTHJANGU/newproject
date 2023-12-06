@@ -18,8 +18,8 @@ const Gallery = () => {
           <div>
             <div data-aos="fade-down-right">
               <img
-                className=" w-[100%]"
-                data-aos="fade-down-right"
+                className=" w-[100%] cursor-pointer "
+                data-aos="fade-down-right "
                 src={living}
                 alt="img"
               />
@@ -29,7 +29,7 @@ const Gallery = () => {
             </div>
             <div className=" lg:mt-28 mt-12" data-aos="fade-down-right">
               <img
-                className=" w-[100%]"
+                className=" w-[100%] cursor-pointer"
                 data-aos="fade-down-left"
                 src={kitchen}
                 alt="img"
@@ -41,19 +41,27 @@ const Gallery = () => {
           </div>
           <div>
             <div data-aos="fade-down-left">
-              <img className=" w-[100%]" src={office} alt="img" />
+              <img
+                className=" w-[100%] cursor-pointer"
+                src={office}
+                alt="img"
+              />
               <p className=" text-[28px] font-medium office font-[poppins] mt-2 ">
                 Office
               </p>
             </div>
             <div className=" lg:mt-28 mt-12" data-aos="fade-down-left">
-              <img className=" w-[100%]" src={bath} alt="img" />
+              <img className=" w-[100%] cursor-pointer" src={bath} alt="img" />
               <p className=" text-[28px] font-medium  font-[poppins] office mt-2">
                 Bath
               </p>
             </div>
             <div className=" lg:mt-28 mt-12" data-aos="fade-down-left">
-              <img className=" w-[100%]" src={bedroom} alt="img" />
+              <img
+                className=" w-[100%] cursor-pointer"
+                src={bedroom}
+                alt="img"
+              />
               <p className=" text-[28px] font-medium office font-[poppins] mt-2">
                 Bed Room
               </p>

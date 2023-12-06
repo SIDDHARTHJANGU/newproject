@@ -12,6 +12,7 @@
     rgba(204, 51, 217, 0.98) 88.56%
   );
 }
+
 .sec3_bg {
   background: linear-gradient(178deg, #021a38 0%, #cc33d9 102.8%);
 }
@@ -60,6 +61,7 @@
 .creating {
   background: linear-gradient(159deg, #cc33d9 30.96%, #021a38 104.01%);
 }
+
 .bttn_subs {
   padding: 17px 50px;
   border-radius: 100px;
@@ -88,6 +90,7 @@
   border-radius: 15px;
   border: 1px solid #888;
   background: #fff;
+  cursor: pointer;
 }
 .img_hgt {
   width: 100%;
@@ -139,7 +142,6 @@
   background: linear-gradient(white, white) padding-box,
     linear-gradient(to top, #fd749b, #281ac8) border-box;
   border: 1px solid transparent;
-  box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1) !important;
 }
 .load {
   width: 500px;

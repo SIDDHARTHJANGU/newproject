@@ -27,7 +27,7 @@ export const Myheader = () => {
   return (
     <div className=" hero_bg  lg:min-h-screen min-h-[90vh]  flex flex-col ">
       <nav>
-        <div className=" container mx-auto">
+        <div className=" container max-w-[1320px]  mx-auto">
           <div className=" flex justify-between items-center py-6 px-3 ">
             <div>
               <img className=" w-[50%] cursor-pointer" src={logo} alt="img" />

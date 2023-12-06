@@ -3,7 +3,7 @@ import React from "react";
 const Newsletter = () => {
   return (
     <div className=" lg:pt-48 pt-16  lg:pb-20 pb-10 px-3 lg:px-0">
-      <div className=" container mx-auto">
+      <div className=" my_container mx-auto">
         <div className=" text-center " data-aos="fade-down">
           <h2 className=" font-bold text-[28px] font-[poppins] office">
             Subscribe our newsletter
